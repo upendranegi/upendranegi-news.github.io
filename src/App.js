@@ -1,25 +1,56 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Textfrom from './component/Textfrom';
+import { useState } from 'react';
+import Alert from './component/Alert';
+import Navbar from './component/Navbar';
+import About from './component/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+
+
 
 function App() {
+  const [alert, setalert] = useState(null);
+
+  const salert = (message, type) => {
+    setalert({
+      msg: message,
+      type: type
+    })
+    setTimeout(() => {
+      setalert(null)
+    }, 3000)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<div>
+            <Navbar />
+
+          </div>}>
+            <Route index element={<div className='textarea'>
+
+              <Alert alert={alert} />
+
+              <Textfrom salert={salert} heading="Enter the text to analyze below" />
+            </div>} />
+            <Route path="About" element={<About />} />
+
+          </Route>
+
+
+
+
+        </Routes>
+
+
+      </Router>
+    </>
   );
 }
 
 export default App;
+
