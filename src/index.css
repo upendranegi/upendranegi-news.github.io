@@ -14,3 +14,10 @@ code {
 #root{
   width: 100%;
 }
+
+
+@media (max-width:1081px){
+  #root{
+    width: 100%;
+  }
+}

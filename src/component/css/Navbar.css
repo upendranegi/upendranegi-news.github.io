@@ -1,257 +1,291 @@
+/* Navbar parent */
 .navbar{
     display: flex;
     flex-direction: row;
-    background-color: #3c1361;
+    background-color: #2C3E50;
+    height: 63px;
+}
+
+/* logo section */
+.logo{
+    width: 23%;
+    height: 100%;
+    display: flex;
+}
+/* logo first news */
+
+.avs14{
+    height: 100%;
+    width: 57%;
+    margin: 0px -61px 0px -15px;
+
+}
+/* logo of first news */
+.ic2465{
+    overflow: hidden;
     width: 100%;
+    height: 320%;
+    margin: -59px -38px;
 }
 
-.navbarchild{
-    width: 70%;
-}
-.searchbarparent{
-    width: 30%;
-
+/* first news heading */
+.acs12{
+width: 53%;
 }
 
-.navb1{
+
+.fN1{
+    color: #fcfcfc;
+    text-transform: uppercase;
+    margin: 15px 5px;
+    position: absolute;
+}
+
+/* nava bar  */
+
+.nav1225{
+    width: 80%;
+}
+/*  */
+/* icon logo */
+#icon1{
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+/* navbar ul  */
+.nav12{
     display: flex;
     flex-direction: row;
-    
-    
-    }
+    transition: all .5s;
+}
 
-.navlink{
-    text-decoration: none;
-    color: rgb(250, 250, 246);
-}    
-
-.bar{
+/* navbar list */
+.navli{
+    margin: 0px 9px;
+    padding: 0px 11px;
     list-style: none;
+    transition: 1s;
+
+}
+.navli:hover{
+    background-color: #376cdf;
+
+}
+
+/* navbar links */
+.navlink{ text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 1s;
+
+}
+.navlink:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1203px){
+    /*nav bar parent div  */
+
+ .navbar{
+    flex-direction: row;
+    transition: all .5s;
+ }
+ /* logo */
+
+.logo{
+    width: 45%;
+}
+
+
+/* logo div */
+.avs14{
+    width: 50%;
+}
+/* logo */
+ .ic2465{
+    margin: -59px -62px;
+ }
+
+ 
+/* first news */
+ .acs12{
+width: 50%;
+ }
+ .fN1{
+    font-size: 33px;
+    margin: 15px -35px;
+ }
+
+.nav1225{
+    width: 55%;
+}
+
+ .navlink{
+    color: #fcfcfc;
+}
+
+.icon-logo{
+    display: flex
+}
+ .newslogo{
+    width:60% ;
+ }
+
+#icon1{
     display: block;
-    margin: 10px;
-    padding: auto;
-   color:  #dedede;
-    
-    
-}
-
-.barimg{
-    width:30px;
+    color: white;
+    text-align: right;
     height: 30px;
-}
-
-input[type=text]{width: 50%px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
+    width: 100%;
+    margin: 22px 2px 9px -8px;
 
 }
 
 
-.button1{
-    border-radius: 8px;
-    background-color: #07061f;
-    margin: 4px;
-    height: 23px;
-    color: #dedede;
-    width: 82px;
-
-}
-
-.searchbar{
-
-    padding: 25px;
-
-}
-
-@media only screen and (max-width:1038px ) and ( min-width:911px){
+ 
+.nav12{
+    display: none;
+    margin: 0px 0px;
+    width: 21%;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    left: -100%;
    
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 66%;
-    }
-    .searchbarparent{
-        width: 34%;
     
-    }
-}
-
-@media only screen and (max-width:911px ) and ( min-width:778px){
    
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 60%;
-    }
-    .searchbarparent{
-        width: 40%;
-    
-    }
 }
 
-@media only screen and (max-width:777px ) and ( min-width:665px){
+.navli{
+    width: 100%;
+    margin: 6px 0px;
+    padding: 10px 0;
+
+}
+
+
+
+
+.navbar:hover .nav12{
+    display: block;
+    background-color: #2C3E50;
+    left: -4px;
+    height: 100vw;
+    border: 2px solid black;
+    margin: 2.5px;
+}
+}
+
+
+@media (max-width:970px){
+
+    .logo{
+width: 50%;
+    }
+
+    .ic2465{
+        margin: -59px -44px;
+    }
+
+    .fN1{
+margin: 15px -15px;
+    }
+
+ .nav12{width: 35%;}   
+}
+
+
+@media (max-width:700px){
+    .nav12{width: 38%;}  
+    
+    .ic2465{
+        margin: -58px -25px;
+    }
+
+    .fN1{
+        margin: 15px 10px;
+    }
+
+
+   }
+  
+
+   @media (max-width:619px) {
    
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        
-        width: 100%;
+   .logo{
+    width: 65%;
+   }
+    .ic2465{
+        margin: -58px -11px;
     }
 
-    .navbarchild{
-        width: 50%;
+    .fN1{
+        margin: 15px 28px;
     }
-    .searchbarparent{
-        width: 48%;
-    
-    }
-}
 
-@media only screen and (max-width:665px ) and ( min-width:613px){
+
+    #icon1{
+        margin: 22px 2px 9px -12px;
+    }
+   }
+
+
+
+@media (max-width:500px){
+
+    .ic2465{
+        margin: -58px -5px;
+    }
+
+    .fN1{
+        margin: 15px 38px;
+    }
+
+    .nav12{width: 40%;}   
+   }
    
+   @media (max-width:400px){
     .navbar{
-        display: flex;
-        flex-direction: row;
-        
         width: 100%;
     }
+.logo{
+width: 70%;
 
-    .navbarchild{
-        width: 49%;
-    }
-    .searchbarparent{
-        width: 51%;
-    
-    }
-    
 }
+.acs12{
+    width: 30%;
+}
+    .ic2465{
+        
+    }
 
-@media only screen and (max-width:613px ) and ( min-width:489px){
+    .fN1{
+
+    }
+    .nav12{width: 45%;}   
    
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 100%;
-    }
-
-    .bar{
-        padding: 0px 2.5rem;
-    }
-    .searchbarparent{
-        width: 100%;
-        
-    
-    }
-
-    .searchbar{
-        margin: 0 2px 0 9rem;
-
-    }
+   .navbar:hover .nav12{
+    display: block;
+    background-color: #2C3E50;
+    left: 1px;
+    height: 100pc;
 }
-
-@media only screen and (max-width:489px ) and ( min-width:410px){
+   }
    
-    .navbar{
-        display: flex;
-        flex-direction: column;
-
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 100%;
-    }
-
-    .bar{
-        padding: 0px 1.5rem;
-    }
-    .searchbarparent{
-        width: 100%;
-       
-        
-    
-    }
-
-    .searchbar{
-        margin: 0 2px 0 6rem;
-
-    }
-}
-
-
-@media only screen and (max-width:410px ) and ( min-width:364px){
-   
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 100%;
-    }
-
-    .bar{
-        padding: 0px 0.2rem;
-    }
-    .searchbarparent{
-        width: 100%;
-       
-        
-    
-    }
-
-    .searchbar{
-       margin: 0 0 0 2rem;
-    }
-}
-
-
-@media only screen and (max-width:364px ) and ( min-width:320px){
-   
-    .navbar{
-        display: flex;
-        flex-direction: column;
-
-        width: 100%;
-    }
-
-    .navbarchild{
-        width: 100%;
-    }
-
-    .bar{
-        padding: 0px 0.1rem;
-    }
-    .searchbarparent{
-        width: 100%;
-    
-    }
-
-    .searchbar{
-    margin: 0 0 0 0.5rem;
-    }
-}
-
-@media only screen and (max-width:320px)and (min-width:0px){
+@media (max-width:300px){
     *{
-display: none;
+        display: none;
     }
-    
 }

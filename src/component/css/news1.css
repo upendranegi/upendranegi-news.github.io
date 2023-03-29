@@ -1,0 +1,114 @@
+.heading12{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4px 0px 8px -52px;
+    position: absolute;
+    
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    margin: auto;
+    
+}
+
+.deta1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    flex-direction: row;
+    
+}
+
+.prenextbtn{
+    display: flex;
+    flex-direction: row;
+    margin: 8px 1px;
+
+}
+
+.previousbtn{
+    width: 115px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 2px 20px;
+    cursor: pointer;
+    transition: 2s;
+}
+.previousbtn:hover{
+    border: 2px solid rgb(79, 89, 198);
+    background-color: black;
+    color: white;
+}
+
+.nextbtn{border: 2px solid black;
+    width: 115px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 2px 20px;
+    box-sizing: border-box;
+    float: right;
+     cursor: pointer;
+    transition: 2s;
+}
+
+.nextbtn:hover{
+    border: 2px solid rgb(79, 89, 198);
+    background-color: black;
+    color: white;
+}
+
+
+.btn12{
+    width: 50%;
+}
+.btn1234{
+width: 50%;
+}
+@media (max-width:1390px){
+    .deta1{
+       padding: 10px 7px;
+    }   
+   }
+
+   @media (max-width:1336px){
+    .deta1{
+       padding: 10px 4px;
+    }   
+   }
+
+   
+   @media (max-width:693px){
+    .heading12{
+        margin: 0px 1rem 11px -5rem;
+    }
+    .deta1{
+        margin: auto;
+    }   
+   }
+
+
+   @media (max-width:593px){
+    .heading12{
+        margin: 0px 1rem 11px -5rem;
+    }
+    .deta1{
+        margin: auto;
+    }   
+   }
+
+   @media (max-width:450px){
+    .heading12{
+        margin: 0px 1rem 11px -5rem;
+    }
+    .deta1{
+        margin: auto;
+    }   
+   }
