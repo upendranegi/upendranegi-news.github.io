@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { AiOutlineUnorderedList } from "react-icons/ai"
-import { motion } from "framer-motion"
+
 import './css/Navbar.css';
 import { Link, Outlet } from 'react-router-dom';
 import icon from "./img/NEWSLOGO-01.png";
