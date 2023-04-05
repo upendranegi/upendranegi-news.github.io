@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/upendranegi-news.github.io/static/css/main.4416f197.css",
-    "main.js": "/upendranegi-news.github.io/static/js/main.96b82ab6.js",
+    "main.css": "/upendranegi-news.github.io/static/css/main.620c7863.css",
+    "main.js": "/upendranegi-news.github.io/static/js/main.b0fd7e38.js",
     "static/js/787.c20870d0.chunk.js": "/upendranegi-news.github.io/static/js/787.c20870d0.chunk.js",
     "static/media/NEWSLOGO-01.png": "/upendranegi-news.github.io/static/media/NEWSLOGO-01.684510030b0bf4715294.png",
     "index.html": "/upendranegi-news.github.io/index.html",
-    "main.4416f197.css.map": "/upendranegi-news.github.io/static/css/main.4416f197.css.map",
-    "main.96b82ab6.js.map": "/upendranegi-news.github.io/static/js/main.96b82ab6.js.map",
+    "main.620c7863.css.map": "/upendranegi-news.github.io/static/css/main.620c7863.css.map",
+    "main.b0fd7e38.js.map": "/upendranegi-news.github.io/static/js/main.b0fd7e38.js.map",
     "787.c20870d0.chunk.js.map": "/upendranegi-news.github.io/static/js/787.c20870d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4416f197.css",
-    "static/js/main.96b82ab6.js"
+    "static/css/main.620c7863.css",
+    "static/js/main.b0fd7e38.js"
   ]
 }
